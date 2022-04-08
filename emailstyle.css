@@ -424,7 +424,9 @@ button:hover {
 .imgcode{
   width: 220px;
   height: 220px;
-  text-align: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin: auto;
   display: block;
   margin: 50px;
@@ -435,5 +437,7 @@ button:hover {
   width: 240px;
   height: 240px;
   margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
   transition: 1s;
 }
