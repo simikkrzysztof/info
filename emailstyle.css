@@ -382,3 +382,58 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
+
+.transition-fade {
+  opacity: 1;
+  transition: 0.5s;
+  transform:translateX(0);
+  transform-origin: left;
+
+}
+
+html.is-animating .transition-fade{
+  opacity: 1;
+  transform: translateX(100%)
+}
+
+html.is-leaving .transition-fade{
+  opacity: 0;
+  transform: translateX(0);
+}
+
+button{
+
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #E6BA95;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+  }
+  
+button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.imgcode{
+  width: 220px;
+  height: 220px;
+  text-align: left;
+  margin: auto;
+  display: block;
+  margin: 50px;
+  transition: 1s;
+}
+
+.imgcode:hover{
+  width: 240px;
+  height: 240px;
+  margin: 50px;
+  transition: 1s;
+}

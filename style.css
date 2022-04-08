@@ -1,7 +1,7 @@
 body{
   padding: 0;
   margin: 0;
-  background-color: #F7E9D7;
+  background-color: #fafafa;
 }
 .middle{
   position: absolute;
@@ -21,15 +21,24 @@ body{
   color: #E6BA95;
   overflow: hidden;
   position: relative;
+  transition: 1s;
+}
+.btn:hover{
+  width: 100px;
+  height: 100px;
+  transition: 1s;
 }
 .btn i{
   line-height: 90px;
   font-size: 26px;
   transition: 0.2s linear;
+
 }
 .btn:hover i{
   transform: scale(1.3);
   color: #f1f1f1;
+  line-height: 100px;
+  transition: 1s;
 }
 .btn::before{
   content: "";
@@ -75,9 +84,63 @@ body{
   margin-bottom: 50px;
   transition: 1s;
 }
+.big-circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #E6BA95, #F7E9D7);
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-40%, 38%);
+}
+
+.big-circle:after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}
+
+.square {
+  position: absolute;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(181%, 11%);
+  opacity: 0.2;
+}
 
 h1{
   font-family: Helvetica;
   margin: auto;
   margin-bottom: 50px;
+  transition: 1s;
+
+}
+h1:hover{
+  font-size: 38px;
+  transition: 1s;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 0.5s;
+  transform:translateX(0);
+  transform-origin: left;
+
+}
+
+html.is-animating .transition-fade{
+  opacity: 1;
+  transform: translateX(100%)
+}
+
+html.is-leaving .transition-fade{
+  opacity: 0;
+  transform: translateX(0);
 }
