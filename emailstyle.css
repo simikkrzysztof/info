@@ -431,9 +431,6 @@ button:hover {
   display: block;
   margin: 50px;
   transition: 1s;
-}
-
-.imgcode:hover{
   width: 240px;
   height: 240px;
   margin: 50px;
@@ -441,3 +438,12 @@ button:hover {
   margin-right: auto;
   transition: 1s;
 }
+/* 
+.imgcode:hover{
+  /* width: 240px;
+  height: 240px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s; */
+/* } */
