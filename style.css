@@ -149,3 +149,14 @@ a:hover {
   cursor: auto;
   
   }
+
+.big-circle2 {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #E6BA95, #F7E9D7);
+  bottom: 80%;
+  right: 10%;
+  transform: translate(-40%, 38%);
+}
