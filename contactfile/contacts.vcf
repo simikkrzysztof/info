@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Krysztof Simik
+N:Simik;Krysztof;;;
+item1.EMAIL;TYPE=INTERNET:krzysztof.simik@gmail.com
+item1.X-ABLabel:
+item2.TEL:+48 513 074 997
+item2.X-ABLabel:
+item3.URL:https\://simikkrzysztof.github.io/info/
+item3.X-ABLabel:
+NOTE:krzysztof.simik: Instagram\nkrzysztof.simik: Snapchat
+PHOTO:https://lh3.googleusercontent.com/contacts/AKUYANQvqdIXxT2cnUaQy1__i3
+ 2UhoY5Avv-S0NliENMLVbMo8IureE
+CATEGORIES:myContacts
+END:VCARD

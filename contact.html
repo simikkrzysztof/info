@@ -3,16 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Form</title>
+    <title>Contact Book</title>
     <link rel="stylesheet" href="emailstyle.css" />
     <link rel="icon" href="img/memoji.PNG" type="image.png">
+    <script src="https://kit.fontawesome.com/4135295df4.js" crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/4135295df4.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
-    <script defer src="script.js"></script>
     <meta name="viewport" content= "width=device-width, user-scalable=no">
   </head>
   <body>
@@ -24,7 +22,7 @@
         <div class="contact-info">
           <h3 class="title">Let's get in touch</h3>
           <p class="text">
-            Write to me and I will try to answer as soon as possible. It's that simple without creating an account. Just enter your details so I know who to answer.
+            Add me to your contact list. Select a platform (IOS, Android). It's so simple.
           </p>
 
           <div class="info">
@@ -45,30 +43,21 @@
           <div class="social-media">
             <p>Connect with me :</p>
             <div class="social-icons">
-              <a href="https://www.facebook.com/krzysztof.simik">
+              <a href="facebook.html">
                 <i class="fab fa-facebook-f"></i>
-              </a>
-
-              <a href="instagram.html">
-                <i class="fab fa-instagram"></i>
               </a>
 
               <a href="snapchat.html">
                 <i class="fab fa-snapchat"></i>
               </a>
-              <a href="github.html">
-                <i class="fa-brands fa-github"></i>
+
+              <a href="email.html">
+                <i class="fa-solid fa-at"></i>
               </a>
-              <a href="contact.html">
-                <i class="fa-solid fa-address-book"></i>
-              </a>
-              
+
               <a href="index.html">
                 <i class="fa-solid fa-house"></i>
               </a>
-
-
-
             </div>
           </div>
         </div>
@@ -78,9 +67,18 @@
           <span class="circle two"></span>
 
           <form action="index.html" autocomplete="off">
-            <h3 class="title">Contact me</h3>
+            <h3 class="title">Find me on Github</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
+
+                <a class="mobilesys" href="contactfile/contacts.vcf" >
+                    <i class="fa-brands fa-apple"></i>
+                  </a>
+                  <a class="mobilesys" href="contactfile/contacts.csv" >
+                    <i class="fa-brands fa-android"></i>
+                </a>
+
+
+              <!-- <input type="text" name="name" class="input" />
               <label for="">Username</label>
               <span>Username</span>
             </div>
@@ -98,8 +96,9 @@
               <textarea name="message" class="input"></textarea>
               <label for="">Message</label>
               <span>Message</span>
-            </div>
-            <input type="submit" value="Send" class="btn" />
+            </div> -->
+            <!-- <input type="submit" value="Open in app" class="btn" href="https://www.snapchat.com/add/krzysztof.simik?share_id=NDBCQkU0&locale=pl_PL" /> -->
+
           </form>
         </div>
       </div>

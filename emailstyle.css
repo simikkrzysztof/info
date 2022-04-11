@@ -470,3 +470,71 @@ a:hover {
   cursor: auto;
   
   }
+
+.appleimg{
+  width: 400px;
+  height: 266px;
+
+}
+.androidimg{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.contacts::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contacts {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+.mobilesys {
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid #fafafa;
+  font-size: 0.95rem;
+  color: #E6BA95;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 60px;
+  
+}
+
+.mobilesys:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+a.mobilesys{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
