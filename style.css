@@ -75,7 +75,12 @@ body{
   margin: auto;
   display: block;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   transition: 1s;
+  position: relative;
+
 }
 
 .memoji:hover{
@@ -105,7 +110,6 @@ body{
   top: calc(50% - 180px);
   left: calc(50% - 180px);
 }
-
 .square {
   position: absolute;
   height: 400px;
@@ -120,6 +124,7 @@ h1{
   margin: auto;
   margin-bottom: 50px;
   transition: 1s;
+  position: relative;
 
 }
 h1:hover{
@@ -150,8 +155,8 @@ a:hover {
   
   }
 
-.big-circle2 {
-  position: fixed;
+/* .big-circle2 {
+  position: absolute;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -159,4 +164,4 @@ a:hover {
   bottom: 80%;
   right: 10%;
   transform: translate(-40%, 38%);
-}
+} */
