@@ -559,18 +559,19 @@ a.mobilesys{
   top: calc(50% - 180px);
   left: calc(50% - 180px);
 }
-.big-circle2 {
+
+.dot{
   position: absolute;
   width: 500px;
   height: 500px;
   border-radius: 50%;
   background: linear-gradient(to bottom, #E6BA95, #F7E9D7);
-  bottom: 70%;
-  right: 20%;
+  bottom: 50%;
+  right: 50%;
   transform: translate(-40%, 38%);
 }
 
-.big-circle2:after {
+.dot:after {
   content: "";
   position: absolute;
   width: 360px;

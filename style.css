@@ -95,8 +95,8 @@ body{
   height: 500px;
   border-radius: 50%;
   background: linear-gradient(to bottom, #E6BA95, #F7E9D7);
-  bottom: 50%;
-  right: 50%;
+  bottom: 40%;
+  right: 45%;
   transform: translate(-40%, 38%);
 }
 
@@ -165,3 +165,25 @@ a:hover {
   right: 10%;
   transform: translate(-40%, 38%);
 } */
+
+.dot{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(to top, #E6BA95, #F7E9D7);
+  bottom: 80%;
+  right: 18%;
+  transform: translate(-40%, 38%);
+}
+
+.dot:after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: calc(50% - 90px);
+  left: calc(50% - 90px);
+}
