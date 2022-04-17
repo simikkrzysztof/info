@@ -98,6 +98,7 @@ body{
   bottom: 40%;
   right: 45%;
   transform: translate(-40%, 38%);
+  z-index: 1;
 }
 
 .big-circle:after {
@@ -125,6 +126,7 @@ h1{
   margin-bottom: 50px;
   transition: 1s;
   position: relative;
+  z-index: 6;
 
 }
 h1:hover{
@@ -175,6 +177,7 @@ a:hover {
   bottom: 80%;
   right: 18%;
   transform: translate(-40%, 38%);
+  z-index: 0;
 }
 
 .dot:after {
