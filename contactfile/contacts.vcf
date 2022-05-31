@@ -1,7 +1,7 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Krysztof Simik
-N:Simik;Krysztof;;;
+FN:Krzysztof Simik
+N:Simik;Krzysztof;;;
 item1.EMAIL;TYPE=INTERNET:krzysztof.simik@gmail.com
 item1.X-ABLabel:
 item2.TEL:+48 513 074 997
